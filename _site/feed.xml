@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-27T13:56:18+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">Things learned from doing threat modeling - part 1</title><link href="http://localhost:4000/security-architecture/threat-modeling/2019/07/27/Threat-modelling-part1.html" rel="alternate" type="text/html" title="Things learned from doing threat modeling - part 1" /><published>2019-07-27T11:25:00+02:00</published><updated>2019-07-27T11:25:00+02:00</updated><id>http://localhost:4000/security-architecture/threat-modeling/2019/07/27/Threat-modelling-part1</id><content type="html" xml:base="http://localhost:4000/security-architecture/threat-modeling/2019/07/27/Threat-modelling-part1.html">&lt;p&gt;Working as a security architect I do threat modeling very often. Through the years I’ve stumbled upon different methods and frameworks, tools, games and presentations. In this series I will share things I wish I knew when I started with threat modeling.&lt;/p&gt;
+
+&lt;h2 id=&quot;threat-modeling-huh&quot;&gt;Threat modeling, huh?&lt;/h2&gt;
+&lt;p&gt;Threat modeling is about analyzing each component and data flow in your system in order to understand how someone or something can abuse it. This is done through different threat scenarios. By analyzing different threat scenarios one can add the necessary controls already in the design phase.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-threat-modeling&quot;&gt;Why threat modeling&lt;/h2&gt;
+&lt;p&gt;For non-security people it can be quite hard at first to see the value of doing threat modeling. I often compare threat modeling to stress analysis, you wouldn’t build and deploy an oil rig without doing stress analysis and countless simulations of each part and material. Same goes for software!&lt;/p&gt;
+
+&lt;h3 id=&quot;cost-saving&quot;&gt;Cost saving&lt;/h3&gt;
+&lt;p&gt;According to NIST (National Institute of Standards and Technology) &lt;em&gt;it is estimated that code fixes after release can result into 25 times the cost of fixing the issue during the design phase.&lt;/em&gt; I’ve also read someone claim 100 times the cost but the exact number is less interesting. But is it clear that for me as an architect to re-draw a couple of boxes in a diagram or add another component is quite easy compared to a developer rewriting the code, test it, and release it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/nist_chart.jpg&quot; alt=&quot;NIST Chart&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;security-awareness&quot;&gt;Security awareness&lt;/h3&gt;
+&lt;p&gt;Doing threat modeling together with the whole team can put security on the radar. Discussing security threat and controls can help raise the awareness in the whole group and that is quite important as there often many people involved when building a system.&lt;/p&gt;
+
+&lt;h3 id=&quot;improving-security-in-your-software&quot;&gt;Improving security in your software&lt;/h3&gt;
+&lt;p&gt;The primary objective of doing threat modeling is to build a secure design by identifying potential vulnerabilities and risks.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-links&quot;&gt;Useful links&lt;/h2&gt;
+&lt;p&gt;Finally, I want to share two good resources about threat modeling.&lt;/p&gt;
+
+&lt;p&gt;The first one is a book written by Adam Shostack. It is a well-written comprehensive guide to threat modeling: &lt;a href=&quot;https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack-ebook/dp/B00IG71FAS&quot;&gt;Threat Modeling : Designing for Security&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are more into videos than books there is great walkthrough you can watch here: &lt;a href=&quot;https://www.youtube.com/watch?v=We2cy8JwVqc&quot;&gt;Threat Modeling by Jim DelGrosso&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;up-next&quot;&gt;Up next&lt;/h2&gt;
+&lt;p&gt;In the following series I will cover:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Methods for doing threat modeling&lt;/li&gt;
+  &lt;li&gt;Know your threat actor&lt;/li&gt;
+  &lt;li&gt;Useful tools when doing threat modeling&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Working as a security architect I do threat modeling very often. Through the years I’ve stumbled upon different methods and frameworks, tools, games and presentations. In this series I will share things I wish I knew when I started with threat modeling.</summary></entry></feed>
