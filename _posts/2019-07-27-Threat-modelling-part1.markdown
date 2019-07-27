@@ -16,7 +16,7 @@ For non-security people it can be quite hard at first to see the value of doing 
 ### Cost saving
 According to NIST (National Institute of Standards and Technology) _it is estimated that code fixes after release can result into 25 times the cost of fixing the issue during the design phase._ I've also read someone claim 100 times the cost but the exact number is less interesting. But is it clear that for me as an architect to re-draw a couple of boxes in a diagram or add another component is quite easy compared to a developer rewriting the code, test it, and release it.
 
-![NIST Chart](images/nist_chart.jpg)
+![NIST Chart](https://github.com/AndersNordin/andersnordin.github.io/blob/master/_site/assets/img/nist_chart.jpg)
 
 ### Security awareness
 Doing threat modeling together with the whole team can put security on the radar. Discussing security threat and controls can help raise the awareness in the whole group and that is quite important as there often many people involved when building a system.

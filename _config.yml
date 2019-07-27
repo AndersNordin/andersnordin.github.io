@@ -17,8 +17,8 @@ title: by Anders Nordin
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about fun and useful things related to Security and Privacy.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "andersnordin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: byandersnordin
 github_username: AndersNordin
 google_analytics: UA-144714201-1
