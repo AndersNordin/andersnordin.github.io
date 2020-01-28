@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Improving your S-SDLC - Host a CTF"
+date:   2020-01-27 17:00:00 +0200
+categories: application-security ssdlc
+---
+You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security.
+
+The S-SDLC usually consists of several activites that helps integrate security into the development lifecycle. Some of the activies could be:
+- Etablish Security Requirements
+- Risk Assessments
+- Threat Modelling
+- Code Reviews
+- Static Application Security Testing (SAST)
+- Vulnerability Scanning
+- Penetration Testing
+- Awareness and Training
+
+In this post I'd like to spend some time on the last activity, Awareness and training. Personally, I believe this is the most underrated activity of all activities in the S-SDLC. 
+
+If you still think you should compile a questionaire and send it to all developers in your organization. STOP! There are much more fun and educational ways to do it and you'll be able to measure it so that you include it in the monthly security report.
+
+# Host a capture the flag
+CTF or Capture the flag is a great way to get hands-on experience with hacking and how you can exploit vulnerabilities in applications. The CTF is about solving challenges and thinking outside the box. 
+
+There are several out-of-the-box platforms that you can launch as docker instances or on a virtual machine. Here are a few:
+- [OWASP Shepherd](https://github.com/OWASP/SecurityShepherd)
+- [OWASP Juiceshop](https://github.com/bkimminich/juice-shop)
+- [Facebook CTF](https://github.com/facebook/fbctf)
+
+## OWASP Shepherd
+OWASP Shepherd is the easiest to start with as it comes with challenges and admin-panel. It covers both mobile and web application vulnerabilities. Reporting is done in the same application and is great for a smaller group.
+
+## OWASP Juice Shop 
+OWASP Juice Shop is the most complete and well-built CTF platform and also run on Kubernetes cluster. However, I have had the most success with docker instances on a single server. The plattform works for both smaller and medium-sized groups and can easily be customized to look like your company profile. All you need to know about OWASP Juice Shop can be found [here](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/).
+
+## Facebook CTF
+The Facebook CTF Framework has a really nice graphical interface. I have used it once in a jeopardy-style CTF. However, at the time, there was not many pre-compiled questions so I had to create all the challenges and questions myself which might take some time. The Facebook CTF platforms work very well with larger groups as it has many CTF functionalities included in the framework like a global timer, alert message, event log.
+
+![Facebook_CTF_Img](https://raw.githubusercontent.com/AndersNordin/andersnordin.github.io/master/_site/assets/facebook_ctf.gif)
+
+# Final word
+Many developers do not have the security background and are pretty unfamiliar with the "think-like-an-attacker"-way. What I usually do is to start with an hour presentation that gives them some clues what can be found and how they should approach the CTF. It is also useful to introduce some tools like Burp Suite or OWASP Zap. 
+
+And just one final thing, don't forget prize for the winners!

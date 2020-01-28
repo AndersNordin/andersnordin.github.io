@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Improving your S-SDLC - Host a CTF | by Anders Nordin</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Improving your S-SDLC - Host a CTF" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security." />
+<meta property="og:description" content="You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security." />
+<link rel="canonical" href="andersnordin.github.io/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html" />
+<meta property="og:url" content="andersnordin.github.io/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html" />
+<meta property="og:site_name" content="by Anders Nordin" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-27T16:00:00+01:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Improving your S-SDLC - Host a CTF","dateModified":"2020-01-27T16:00:00+01:00","datePublished":"2020-01-27T16:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"andersnordin.github.io/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html"},"url":"andersnordin.github.io/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html","description":"You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="andersnordin.github.io/feed.xml" title="by Anders Nordin" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">by Anders Nordin</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Improving your S-SDLC - Host a CTF</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-01-27T16:00:00+01:00" itemprop="datePublished">Jan 27, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security.</p>
+
+<p>The S-SDLC usually consists of several activites that helps integrate security into the development lifecycle. Some of the activies could be:</p>
+<ul>
+  <li>Etablish Security Requirements</li>
+  <li>Risk Assessments</li>
+  <li>Threat Modelling</li>
+  <li>Code Reviews</li>
+  <li>Static Application Security Testing (SAST)</li>
+  <li>Vulnerability Scanning</li>
+  <li>Penetration Testing</li>
+  <li>Awareness and Training</li>
+</ul>
+
+<p>In this post I’d like to spend some time on the last activity, Awareness and training. Personally, I believe this is the most underrated activity of all activities in the S-SDLC.</p>
+
+<p>If you still think you should compile a questionaire and send it to all developers in your organization. STOP! There are much more fun and educational ways to do it and you’ll be able to measure it so that you include it in the monthly security report.</p>
+
+<h1 id="host-a-capture-the-flag">Host a capture the flag</h1>
+<p>CTF or Capture the flag is a great way to get hands-on experience with hacking and how you can exploit vulnerabilities in applications. The CTF is about solving challenges and thinking outside the box.</p>
+
+<p>There are several out-of-the-box platforms that you can launch as docker instances or on a virtual machine. Here are a few:</p>
+<ul>
+  <li><a href="https://github.com/OWASP/SecurityShepherd">OWASP Shepherd</a></li>
+  <li><a href="https://github.com/bkimminich/juice-shop">OWASP Juiceshop</a></li>
+  <li><a href="https://github.com/facebook/fbctf">Facebook CTF</a></li>
+</ul>
+
+<h2 id="owasp-shepherd">OWASP Shepherd</h2>
+<p>OWASP Shepherd is the easiest to start with as it comes with challenges and admin-panel. It covers both mobile and web application vulnerabilities. Reporting is done in the same application and is great for a smaller group.</p>
+
+<h2 id="owasp-juice-shop">OWASP Juice Shop</h2>
+<p>OWASP Juice Shop is the most complete and well-built CTF platform and also run on Kubernetes cluster. However, I have had the most success with docker instances on a single server. The plattform works for both smaller and medium-sized groups and can easily be customized to look like your company profile. All you need to know about OWASP Juice Shop can be found <a href="https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/">here</a>.</p>
+
+<h2 id="facebook-ctf">Facebook CTF</h2>
+<p>The Facebook CTF Framework has a really nice graphical interface. I have used it once in a jeopardy-style CTF. However, at the time, there was not many pre-compiled questions so I had to create all the challenges and questions myself which might take some time. The Facebook CTF platforms work very well with larger groups as it has many CTF functionalities included in the framework like a global timer, alert message, event log.</p>
+
+<p><img src="https://raw.githubusercontent.com/AndersNordin/andersnordin.github.io/master/_site/assets/facebook_ctf.gif" alt="Facebook_CTF_Img" /></p>
+
+<h1 id="final-word">Final word</h1>
+<p>Many developers do not have the security background and are pretty unfamiliar with the “think-like-an-attacker”-way. What I usually do is to start with an hour presentation that gives them some clues what can be found and how they should approach the CTF. It is also useful to introduce some tools like Burp Suite or OWASP Zap.</p>
+
+<p>And just one final thing, don’t forget prize for the winners!</p>
+
+  </div><a class="u-url" href="/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">by Anders Nordin</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">by Anders Nordin</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/AndersNordin"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">AndersNordin</span></a></li><li><a href="https://www.twitter.com/byandersnordin"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">byandersnordin</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Blog about fun and useful things related to Security and Privacy.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
