@@ -1,16 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:22:44+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:27:51+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
 
 &lt;p&gt;Here are the links from the presentation and other references:&lt;/p&gt;
 
-&lt;p&gt;| Title  | Link   | Description  |
-|—|—|—|
-| CTF platform  | https://github.com/bkimminich/juice-shop  | OWASP Juice Shop can easily be deploy as docker container on your local machine. (Yaay, something to do on friday. Thanks!)  |
-| Answer to all challenges  | https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/  |   |
-| Nissan Leaf Hacking  | https://www.troyhunt.com/controlling-vehicle-features-of-nissan/  | Original Post on Troy Hunt |
-| Donald Daters Hack  | https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad  |   |
-| Unsafe deserialization explained | https://www.youtube.com/watch?v=t-zVC-CxYjw | Deserialization: what, how and why [not] - Alexei Kojenov - AppSecUSA 2018 |
-| Exploit Database | https://www.exploit-db.com/ | A website containing weaponized scripts for vulnerabilities |
-Feel free to reach out if you have any questions!&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Title&lt;/th&gt;
+      &lt;th&gt;Link&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CTF platform&lt;/td&gt;
+      &lt;td&gt;https://github.com/bkimminich/juice-shop&lt;/td&gt;
+      &lt;td&gt;OWASP Juice Shop can easily be deploy as docker container on your local machine. (Yaay, something to do on friday. Thanks!)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Answer to all challenges&lt;/td&gt;
+      &lt;td&gt;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nissan Leaf Hacking&lt;/td&gt;
+      &lt;td&gt;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&lt;/td&gt;
+      &lt;td&gt;Original Post on Troy Hunt&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Donald Daters Hack&lt;/td&gt;
+      &lt;td&gt;https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Unsafe deserialization explained&lt;/td&gt;
+      &lt;td&gt;https://www.youtube.com/watch?v=t-zVC-CxYjw&lt;/td&gt;
+      &lt;td&gt;Deserialization: what, how and why [not] - Alexei Kojenov - AppSecUSA 2018&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Exploit Database&lt;/td&gt;
+      &lt;td&gt;https://www.exploit-db.com/&lt;/td&gt;
+      &lt;td&gt;A website containing weaponized scripts for vulnerabilities&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Feel free to reach out if you have any questions!&lt;/p&gt;
 
 &lt;p&gt;Happy Hacking! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.</summary></entry><entry><title type="html">Improving your S-SDLC - Host a CTF</title><link href="http://localhost:4000/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html" rel="alternate" type="text/html" title="Improving your S-SDLC - Host a CTF" /><published>2020-01-27T16:00:00+01:00</published><updated>2020-01-27T16:00:00+01:00</updated><id>http://localhost:4000/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1</id><content type="html" xml:base="http://localhost:4000/application-security/ssdlc/2020/01/27/Improving-your-ssdlc-part1.html">&lt;p&gt;You might be familiar with SDLC (Software Development Lifecycle) which is the process most organization use to describe how to create, test and release software. By adding and S in front you get S-SDLC, and you guessed about right, it stands for secure or security.&lt;/p&gt;
 

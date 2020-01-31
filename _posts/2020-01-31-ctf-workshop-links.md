@@ -15,7 +15,8 @@ Here are the links from the presentation and other references:
 | Nissan Leaf Hacking  | https://www.troyhunt.com/controlling-vehicle-features-of-nissan/  | Original Post on Troy Hunt |
 | Donald Daters Hack  | https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad  |   |
 | Unsafe deserialization explained | https://www.youtube.com/watch?v=t-zVC-CxYjw | Deserialization: what, how and why [not] - Alexei Kojenov - AppSecUSA 2018 |
-| Exploit Database | https://www.exploit-db.com/ | A website containing weaponized scripts for vulnerabilities |
+| Exploit Database | https://www.exploit-db.com/ | A website containing weaponized scripts for vulnerabilities | 
+
 Feel free to reach out if you have any questions!
 
 Happy Hacking! :) 
