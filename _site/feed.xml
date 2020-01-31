@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:27:51+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:29:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
 
 &lt;p&gt;Here are the links from the presentation and other references:&lt;/p&gt;
 
@@ -13,32 +13,32 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;CTF platform&lt;/td&gt;
-      &lt;td&gt;https://github.com/bkimminich/juice-shop&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/bkimminich/juice-shop&quot;&gt;https://github.com/bkimminich/juice-shop&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;OWASP Juice Shop can easily be deploy as docker container on your local machine. (Yaay, something to do on friday. Thanks!)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Answer to all challenges&lt;/td&gt;
-      &lt;td&gt;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&quot;&gt;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Nissan Leaf Hacking&lt;/td&gt;
-      &lt;td&gt;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&quot;&gt;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Original Post on Troy Hunt&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Donald Daters Hack&lt;/td&gt;
-      &lt;td&gt;https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad&quot;&gt;https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Unsafe deserialization explained&lt;/td&gt;
-      &lt;td&gt;https://www.youtube.com/watch?v=t-zVC-CxYjw&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=t-zVC-CxYjw&quot;&gt;https://www.youtube.com/watch?v=t-zVC-CxYjw&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;Deserialization: what, how and why [not] - Alexei Kojenov - AppSecUSA 2018&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Exploit Database&lt;/td&gt;
-      &lt;td&gt;https://www.exploit-db.com/&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.exploit-db.com/&quot;&gt;https://www.exploit-db.com/&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;A website containing weaponized scripts for vulnerabilities&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
