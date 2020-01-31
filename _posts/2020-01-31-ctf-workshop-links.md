@@ -11,7 +11,7 @@ Here are the links from the presentation and other references:
 | Title  | Link   | Description  |
 |---|---|---|
 | CTF platform  | <https://github.com/bkimminich/juice-shop>  | OWASP Juice Shop can easily be deploy as docker container on your local machine. (Yaay, something to do on friday. Thanks!)  |
-| Answer to all challenges  | <https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/>  |   |
+| Solution to all challenges  | <https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/>  |   |
 | Nissan Leaf Hacking  | <https://www.troyhunt.com/controlling-vehicle-features-of-nissan/>  | Original Post on Troy Hunt's blogg |
 | Donald Daters Hack  | <https://medium.com/@fs0c131y/how-i-found-the-database-of-the-donald-daters-app-af88b06e39ad>  |   |
 | Unsafe deserialization explained | <https://www.youtube.com/watch?v=t-zVC-CxYjw> | Deserialization: what, how and why [not] - Alexei Kojenov - AppSecUSA 2018 |

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:31:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:31:59+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
 
 &lt;p&gt;Here are the links from the presentation and other references:&lt;/p&gt;
 
@@ -17,7 +17,7 @@
       &lt;td&gt;OWASP Juice Shop can easily be deploy as docker container on your local machine. (Yaay, something to do on friday. Thanks!)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Answer to all challenges&lt;/td&gt;
+      &lt;td&gt;Solution to all challenges&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&quot;&gt;https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
