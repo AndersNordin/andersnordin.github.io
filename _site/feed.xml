@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:29:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-31T18:31:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">by Anders Nordin</title><subtitle>Blog about fun and useful things related to Security and Privacy.</subtitle><entry><title type="html">CTF Workshop - Links and stuff</title><link href="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html" rel="alternate" type="text/html" title="CTF Workshop - Links and stuff" /><published>2020-01-31T17:00:00+01:00</published><updated>2020-01-31T17:00:00+01:00</updated><id>http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links</id><content type="html" xml:base="http://localhost:4000/ctf/workshop/2020/01/31/ctf-workshop-links.html">&lt;p&gt;Today I held a presentation and a workshop, How to hack web application and preparations for Capture the flag @ Thon Hotel in Oslo.&lt;/p&gt;
 
 &lt;p&gt;Here are the links from the presentation and other references:&lt;/p&gt;
 
@@ -24,7 +24,7 @@
     &lt;tr&gt;
       &lt;td&gt;Nissan Leaf Hacking&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&quot;&gt;https://www.troyhunt.com/controlling-vehicle-features-of-nissan/&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Original Post on Troy Hunt&lt;/td&gt;
+      &lt;td&gt;Original Post on Troy Hunt’s blogg&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Donald Daters Hack&lt;/td&gt;
