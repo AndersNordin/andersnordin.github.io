@@ -10,13 +10,10 @@ Working as a security architect I do threat modeling very often. Through the yea
 Threat modeling is about analyzing each component and data flow in your system in order to understand how someone or something can abuse it. This is done through different threat scenarios. By analyzing different threat scenarios one can add the necessary controls already in the design phase. 
 
 ## Why threat modeling
-For non-security people it can be quite hard at first to see the value of doing threat modeling. I often compare threat modeling to stress analysis, you wouldn't build and deploy an oil rig without doing stress analysis and countless simulations of each part and material. Same goes for software! 
-
+For non-security people it can be quite hard at first to see the value of doing threat modeling. I often compare threat modeling to reliability analysis, you wouldn't build and deploy an oil rig without doing countless simulations of each part and material. Same goes for software! 
 
 ### Cost saving
-According to NIST (National Institute of Standards and Technology) _it is estimated that code fixes after release can result into 25 times the cost of fixing the issue during the design phase._ I've also read someone claim 100 times the cost but the exact number is less interesting. But is it clear that for me as an architect to re-draw a couple of boxes in a diagram or add another component is quite easy compared to a developer rewriting the code, test it, and release it.
-
-![NIST Chart](https://raw.githubusercontent.com/AndersNordin/andersnordin.github.io/master/_site/assets/nist_chart.jpg)
+Discovering flaws and vulnerabilities early-on in the design phase is far more cheaper than discovering the problem latter. Problems that are discovered when the software is shipped to production must go through the whole process again and might delay the whole release. 
 
 ### Security awareness
 Doing threat modeling together with the whole team can put security on the radar. Discussing security threat and controls can help raise the awareness in the whole group and that is quite important as there often many people involved when building a system.
